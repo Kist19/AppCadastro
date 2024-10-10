@@ -6,6 +6,7 @@ import android.widget.Button;
 import android.widget.EditText;
 
 import androidx.appcompat.app.AlertDialog;
+import androidx.appcompat.app.AppCompatActivity;
 
 public class TelaCadastroUsuario {
     MainActivity act;
@@ -41,12 +42,13 @@ public class TelaCadastroUsuario {
                                 String telefone = edttelefone.getText().toString();
                                 String endereco = edtendereco.getText().toString();
                                 act.getaRegistro().add(new Registro(nome, telefone, endereco));
-                                act.ExibirMensagem("Cadastroefetuado com sucesso.");
+                                act.ExibirMensagem("Cadastro efetuado com sucesso.");
                                 tela_principal.CarregarTela();
                             }
                         });
                 dialogo.show();
-            }});
+            }
+        });
         btncancelar_cadastro.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -63,6 +65,7 @@ public class TelaCadastroUsuario {
                             }
                         });
                 dialogo.show();
-            }});
+            }
+        });
     }
 }

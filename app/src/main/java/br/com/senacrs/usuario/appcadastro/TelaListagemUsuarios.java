@@ -5,6 +5,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 public class TelaListagemUsuarios {
     MainActivity act;
     TelaPrincipal tela_principal;
@@ -27,7 +29,7 @@ public class TelaListagemUsuarios {
                     .setNeutralButton("OK", null).show();
             return;
         }
-        act.setContentView(R.layout.listagem_usuarios_cadastrados);
+        act.setContentView(R.layout.visualizacaodados);
         btanterior = (Button) act.findViewById(R.id.btnanterior);
         btproximo = (Button) act.findViewById(R.id.btnproximo);
         btfechar = (Button) act.findViewById(R.id.btnfechar);
@@ -42,8 +44,8 @@ public class TelaListagemUsuarios {
             public void onClick(View view) {
                 if(index > 0){
                     index--;
-                    PreencheCampos(index);
-                    AtualizaStatus(index);
+                    PreencherCampos(index);
+                    AtualizarStatus(index);
                 }
             }
         });
@@ -52,8 +54,8 @@ public class TelaListagemUsuarios {
             public void onClick(View view) {
                 if (index < act.getaRegistro().size() - 1) {
                     index++;
-                    PreencheCampos(index);
-                    AtualizaStatus(index);
+                    PreencherCampos(index);
+                    AtualizarStatus(index);
                 }
             } });
         btfechar.setOnClickListener(new View.OnClickListener() {

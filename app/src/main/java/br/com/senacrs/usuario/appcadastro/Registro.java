@@ -1,5 +1,7 @@
 package br.com.senacrs.usuario.appcadastro;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 public class Registro {
     private String nome;
     private String endereco;
