@@ -4,12 +4,13 @@
 
 ## 📱 Descrição
 
-O **App Cadastro** solicita a entrada de dados e lista-os na tela principal.
+O **App Cadastro** solicita a entrada de dados e os lista na tela de listagem.
 
 ## 🔧 Funcionalidades
 
 - [x] Entrada de dados (Nome, Endereço e Telefone)
-- [x] Pesquisa de usuários
+- [x] Cadastro de usuário
+- [x] Listagem de usuários
 - [x] Interface simples e intuitiva
 
 ## 🚀 Tecnologias Utilizadas
@@ -75,19 +76,19 @@ O design é minimalista e fácil de usar, com foco na simplicidade.
 
 ## 1. Tela Principal
    
-   Botões de **Registrar** e **Entrar**.
+   Botões de **Cadastrar usuário** e **Listar usuários cadastrado**.
    
-![Texto Alternativo](https://github.com/Kist19/AppLogin/blob/master/telaprincipal.jpg?raw=true)
+![Texto Alternativo](https://github.com/Kist19/AppCadastro/blob/master/telaprincipal_appcadastro.jpg?raw=true)
 
 ## 2. Tela Cadastro
    
-   Onde é realizado o registro, com a opção de **Cadastrar** para continuar e **Cancelar**.
+   Onde é realizado o registro, com a opção de **Cadastrar** para continuar e **Cancelar** para retornar a tela inicial.
    
 ![Texto Alternativo](https://github.com/Kist19/AppCadastro/blob/master/cadastro_appcadastro.jpg?raw=true)
 
 ## 3. Tela Listagem
    
-   Onde o cadastro é criado para ser apresentado na tela principal.
+   Onde fica as informações dos usuários, com a opção de passar para o **Próximo** e voltar ao **Anterior**.
    
 ![Texto Alternativo](https://github.com/Kist19/AppCadastro/blob/master/listagem_appcadastro.jpg?raw=true)
 
