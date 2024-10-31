@@ -72,13 +72,13 @@ O design é minimalista e fácil de usar, com foco na simplicidade.
 
 ## 2. Tela Cadastro
    
-   Cadastr de usuário, com a opção de **Cadastrar** para continuar e **Cancelar** para retornar a tela inicial.
-   
+   Cadastro de usuário com opções de **Cadastrar** para prosseguir e **Cancelar** para voltar à tela inicial.
+
 ![Texto Alternativo](https://github.com/Kist19/AppCadastro/blob/master/cadastro_appcadastro.jpg?raw=true)
 
 ## 3. Tela Listagem
    
-   Listagem dos usuários, com a opção de passar para o **Próximo** e voltar ao **Anterior**.
+   Listagem de usuários com opções para ir ao **Próximo** e **voltar** ao Anterior.
    
 ![Texto Alternativo](https://github.com/Kist19/AppCadastro/blob/master/listagem_appcadastro.jpg?raw=true)
 
