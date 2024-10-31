@@ -1,14 +1,14 @@
 # **App Cadastro**
 
-> Aplicativo que cadastra e lista seus usuários.
+> Aplicativo que realiza cadastro de usuário e o lista em uma tela separada.
 
 ## 📱 Descrição
 
-O **App Cadastro** solicita a entrada de dados e os lista na tela de listagem.
+O **App Cadastro** permite inserir dados para registrar um usuário e exibe uma lista dos usuários cadastrados, com botões para visualizar os registros.
 
 ## 🔧 Funcionalidades
 
-- [x] Entrada de dados (Nome, Endereço e Telefone)
+- [x] Entrada de dados (Nome, Endereco e Telefone)
 - [x] Cadastro de usuário
 - [x] Listagem de usuários
 - [x] Interface simples e intuitiva
@@ -19,7 +19,7 @@ O **App Cadastro** solicita a entrada de dados e os lista na tela de listagem.
 - [x] **Java** para desenvolvimento
 - [x] **ConstraintLayout** para interface responsiva
 - [x] **TextView** e **EditText** para entrada e exibição de dados
-- [x] **Button** para cadastrar e visualizar os usuários
+- [x] **Button** para cadastrar e navegar pelos usuários
 
 ## 🛠️ Como Rodar o Projeto
 
@@ -41,30 +41,20 @@ Siga os passos abaixo para rodar o projeto localmente:
 ├── app
 │   ├── src
 │   │   ├── main
-│   │   │  ├── java/com/example/imccalculator
-│   │   │  │  ├── MainActivity.java # Atividade principal com cálculo do IMC
-│   │   │  ├──res
+│   │   │  ├── java/br/com/senacrs/usuario/appcadastro
+│   │   │  │  ├── MainActivity.java           # Atividade principal com appCadastro
+│   │   │  │  ├── Registro.java
+│   │   │  │  ├── TelaCadastroUsuario.java
+│   │   │  │  ├── TelaListagemUsuarios.java
+│   │   │  │  ├── TelaPrincipal.java
+│   │   │  ├── res
 │   │   │  │   ├── layout
-│   │   │  │   │   ├── activity_main.xml   #Layout da tela principal
-│   │   │  
-│   └── values
-
-
-│   │   │  
-│       ├──
-strings.xml         # Strings usadas no
-app
-
-
-│   │   │  
-│       ├── colors.xml          # Cores definidas no projeto
-
-
-│   └── build.gradle                        # Configuração do
-Gradle
-
-
-└── README.md                               # Este arquivo
+│   │   │  │   │   ├── activity_main.xml     #Layout da tela principal
+│   │   │  │   └── values
+│   │   │  │       ├── strings.xml           # Strings usadas no app
+│   │   │  │       ├── colors.xml            # Cores definidas no projeto
+│   └── build.gradle                         # Configuração do Gradle
+└── README.md                                # Este arquivo
 ```
 ## 🎨 Design e Prototipagem
  
@@ -82,13 +72,13 @@ O design é minimalista e fácil de usar, com foco na simplicidade.
 
 ## 2. Tela Cadastro
    
-   Onde é realizado o registro, com a opção de **Cadastrar** para continuar e **Cancelar** para retornar a tela inicial.
+   Cadastr de usuário, com a opção de **Cadastrar** para continuar e **Cancelar** para retornar a tela inicial.
    
 ![Texto Alternativo](https://github.com/Kist19/AppCadastro/blob/master/cadastro_appcadastro.jpg?raw=true)
 
 ## 3. Tela Listagem
    
-   Onde fica as informações dos usuários, com a opção de passar para o **Próximo** e voltar ao **Anterior**.
+   Listagem dos usuários, com a opção de passar para o **Próximo** e voltar ao **Anterior**.
    
 ![Texto Alternativo](https://github.com/Kist19/AppCadastro/blob/master/listagem_appcadastro.jpg?raw=true)
 
