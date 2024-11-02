@@ -42,7 +42,7 @@ Siga os passos abaixo para rodar o projeto localmente:
 │   ├── src
 │   │   ├── main
 │   │   │  ├── java/br/com/senacrs/usuario/appcadastro
-│   │   │  │  ├── MainActivity.java           # Atividade principal com appCadastro
+│   │   │  │  ├── MainActivity.java          # Atividade principal com appCadastro
 │   │   │  │  ├── Registro.java
 │   │   │  │  ├── TelaCadastroUsuario.java
 │   │   │  │  ├── TelaListagemUsuarios.java
